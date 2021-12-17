@@ -1,0 +1,26 @@
+aside{
+    flex: 1 1 250px;
+    padding-right: 17px;
+    max-width: 250px;
+}
+aside nav{
+    padding-left: 17px;
+    padding-right: 17px;
+}
+aside nav h3{
+    color:lightpink;
+    font-size: 24px;
+    margin-bottom: 17px;
+}
+aside nav a{
+    display: block;
+    text-align: left;
+    padding: 8px 17px;
+    font-size: 16px;
+    color: lightslategray;
+    margin-bottom: 17px;
+    background-color: #EEE;
+    border-radius: 999px;
+    text-decoration: none;
+
+}

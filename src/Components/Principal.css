@@ -1,0 +1,49 @@
+main{
+    flex: 1 1 0%;
+    padding: 0px 16px;
+    
+}
+.main-head{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.main-head .search-box{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1 0%;
+
+
+}
+.main-head .search-box input{
+    appearance: none;
+    display: block;
+    border: none;
+    width: 100%;
+    max-width: 600px;
+    background: none;
+    outline: none;
+    padding: 16px;
+    border-radius: 999px;
+    background-color: #EEE;
+    transition: 0.4s;
+
+}
+
+.main-head .search-box input ::placeholder{
+            color:#888;
+}
+
+.main-head .search-box input :focus,:valid{
+                color: rgb(199, 33, 185);
+}
+
+main .anime-list{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 32px;
+    margin: 32px -8px 8px;
+
+    
+}
